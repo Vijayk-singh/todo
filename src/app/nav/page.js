@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
-export const Nav = () => {
+export default Nav = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [toggle, setToggle] = useState("navbar");
 
