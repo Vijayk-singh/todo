@@ -31,7 +31,7 @@ export const Nav = () => {
   };
 
   return (
-    <div className="header">
+    <div className="header" key="4">
       <Link href="/">
         <div className="banner">
           <img

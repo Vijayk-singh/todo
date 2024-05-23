@@ -4,7 +4,7 @@ import 'animate.css';
 
 const Home = () => {
   return (
-    <div>
+    <div key="2">
       
       <div className="home">
         <Nav />

@@ -37,7 +37,7 @@ const DeleteProj = () => {
 
   console.log(proj);
   return (
-    <div>
+    <div key="81">
       <div className="">
 
       </div>

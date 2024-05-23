@@ -28,8 +28,8 @@ const Portfolio = () => {
 
   console.log(proj);
   return (
-    <>
-      <div className="portfolio">
+    <div key="21" >
+      <div className="portfolio" key="2">
         <Nav />
       </div>
       <div className="portfolioheader">Portfolio</div>
@@ -37,7 +37,7 @@ const Portfolio = () => {
    
         {proj.status
           ? proj.data.map((element) => (
-              <div className="projbox">
+              <div className="projbox" key={element}>
                 <div className="title">{element.title}</div>
                 <img className="image" src={element.url}/>
                 <div className="description" key={element.id}>{element.desc}</div>
@@ -46,7 +46,7 @@ const Portfolio = () => {
           : "Loading..."}
       
       </div>
-    </>
+    </div>
   );
 };
 

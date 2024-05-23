@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Nav } from "../nav/page";
 const Admin = () => {
   return (
-    <div>
+    <div key="45">
         <Nav/>
         <div className="" style={styles.box}></div>
         <div className="addproject" style={styles.addproj}><Link href="/admin/addproj">Add Your Projects</Link></div>
