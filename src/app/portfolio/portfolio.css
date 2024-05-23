@@ -1,0 +1,22 @@
+.proj {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    flex: 1 0 calc(33.33% - 20px); /* Adjust width based on number of items */
+    margin: 10px; /* Adjust spacing between items */
+    max-width: 320px;
+  }
+  
+  .container {
+    display: grid;
+    flex-wrap: wrap;
+  }
+  
+  .title {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .image {
+    width: 100%; /* Ensure images fill their container */
+  }
+  
