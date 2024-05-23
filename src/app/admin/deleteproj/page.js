@@ -46,7 +46,7 @@ const DeleteProj = () => {
       <div className="proj">
         {proj.status
           ? proj.data.map((element) => (
-              <div className="projects">
+              <div className="projects" key="0">
                 <div>{element.title}</div>
                 <div key={element.id} alt={element.title}><img src={element.url} alt={element.url}></img></div>
                 <div key={element.id}>{element.type}</div>
